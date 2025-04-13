@@ -1,0 +1,39 @@
+.generate-button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease;
+  }
+  
+  .generate-button:hover {
+    background-color: #5a4cd2;
+  }
+  
+
+
+
+.generate-button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  @media (max-width: 480px) {
+    .generate-button {
+      width: 100%;
+      font-size: 0.95rem;
+    }
+  }
+  
