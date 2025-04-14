@@ -14,7 +14,7 @@
 .theme-toggle {
     display: flex;
     align-items: center;
-    gap: 0.5rem; /* adds space between emoji and text */
+    gap: 0.5rem; 
   }
   
 .app-title {
@@ -40,6 +40,7 @@
 .theme-toggle:hover {
   background-color: #333;
   transform: scale(1.05);
+  color: white;
 }
 
 .header-section {
