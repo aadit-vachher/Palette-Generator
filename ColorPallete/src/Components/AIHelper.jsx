@@ -18,7 +18,7 @@ export async function getSimilarColors(baseColorHex) {
   
       const data = await response.json();
   
-      // Convert RGB to HEX
+
       const rgbToHex = (rgb) =>
         "#" +
         rgb.map((val) => val.toString(16).padStart(2, '0')).join('');
