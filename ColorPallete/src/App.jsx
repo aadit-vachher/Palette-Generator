@@ -15,7 +15,7 @@ function App() {
   return (
     <div className={`app-container ${theme}`}>
       <Header theme={theme} toggleTheme={toggleTheme} />
-      {/* <Palette loading={loading} setLoading={setLoading} />  */}
+
       <Palette theme={theme} loading={loading} setLoading={setLoading} />
 
     </div>
